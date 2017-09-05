@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+  max-width: 99vw;
+}
+
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url("image/header_background.jpg");
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+  font-size: 35px;
+  color: #FFFAFA;
+}
+.name{
+  position: absolute;
+  font-family: sans-serif;
+  top: 18vh;
+  margin-left: 10vw;
+}
+.header-buttons{
+  position: absolute;
+  top:25vh;
+  margin-left: 11vw;
+}
+.header-buttons a{
+  margin: 3px;
+  border: 2px solid darkorange;
+  padding: 5px 12px;
+  border-radius: 5px;
+  color: orange;
+}
+.header-buttons a:hover{
+  transform: scale(1.05);
+  text-decoration: none;
+}
+.main-nav{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 70vw;
+}
+.about{
+  margin-top: 10vh;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 15vh;
+}
+.about img{
+  display: block;
+  height: 35vh;
+  margin: auto;
+  border-radius: 50%
+
+}
+h2{
+  margin-bottom: 10vh;
+  color:grey;
+  font-size: 30px;
+}
+.project-header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url("image/wooden_background.jpg");
+  background-size:cover;
+  background-position: bottom;
+  height: 25vh;
+  color:	#FFFAFA;
+  text-align: center;
+}
+.project-header p{
+  margin-top: 15px;
+}
+h3{
+  font-size: 30px;
+  font-family: sans-serif;
+  line-height: 2;
+}
+h3:after{
+  width: 70px;
+  height: 2.5px;
+  background-color: darkorange;
+  display: block;
+  content: "";
+  margin:0 auto;
+}
+.container{
+    margin-top: 20px;
+    font-size: 15px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.container figure{
+  margin: 30px;
+}
+.container img{
+  display: block;
+  height: 30vh;
+  width: auto;
+  border-radius: 50%;
+
+}
+.container img:hover{
+  transform: scale(1.05);
+}
+.container b{
+  color:black;
+  line-height: 2;
+}
+.container p{
+  color: grey;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.contactForm{
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url("image/beach.jpg");
+  background-size: cover;
+  background-position: top;
+
+}
+h4{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 25px;
+  line-height: 3;
+}
+.contactForm p{
+  color: white;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+.contactContainer{
+  margin-left: 15vw;
+}
+.email{
+  width: 33vw;
+  margin-top:20px;
+  margin-bottom: 20px;
+  border-width: thick;
+}
+.message{
+  width: 60vw;
+  margin-bottom: 25px;
+  border-width: thick;
+}
+.submitButton{
+  padding: 5px 10px;
+  background: black;
+  border-radius: 10px;
+  border-style: solid;
+  color: darkorange;
+  border-color: darkorange;
+
+}
