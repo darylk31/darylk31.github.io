@@ -1,25 +1,26 @@
 $(function(){
 
-$('#submitButton').click(function(){
+$('@contactForm').submit(function(e){
+  e.preventDefault();
 
-  var email = $('#email');
-  var message = $('#message');
-  var data = 'email='+ email  + '&message='+ message;
+  var name, email, message;
 
+  name = $('#name');
+  email = $('#email');
+  message = $('#message');
 
-
-  if (email.val() == "" || message.val() == ""){
+  if (name.val() == "" || email.val() == "" || message.val() == ""){
     alert('Please check submission forms again.')
-    console.log('Submit Failed.')
+
   } else{
     $.ajax({
       url: "https://formspree.io/darylkwok@live.ca",
       method: "POST",
-      data: data,
+      data: $(this).serialize(),
       dataType: "json"
-    })
+    });
+
     alert('Message sent.')
-    console.log('Email sent!')
   }
 });
 });

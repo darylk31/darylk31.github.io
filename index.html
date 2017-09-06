@@ -137,13 +137,12 @@
       <p>
         Feel free to send me a message through email, and I will reply as soon as possible.
       </p>
-      <form action="https://formspree.io/darylkwok@live.ca" method="POST">
+      <form id="contactForm" action="https://formspree.io/darylkwok@live.ca" method="POST">
         <input type="text" name="name" placeholder=" Name" id="name"/>
         <input type="email" name="_replyto" placeholder=" Your Email" id="email"/>
         <textarea name="message" placeholder=" Message" id="message" rows="8"></textarea>
-        <input type="submit" value="Send" id="submitButton" />
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="hidden" name="_next" />
+        <input type="hidden" name="_next" value="https://www.darylkwok.info"/>
+        <input class="submit" type="submit" value="Send" id="submitButton" />
       </form>
     </div>
 </body>
