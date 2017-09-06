@@ -115,7 +115,7 @@ h3:after{
 }
 .contactForm{
   height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url("image/beach.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url("image/beach.jpg");
   background-size: cover;
   background-position: top;
 
@@ -141,12 +141,14 @@ h4{
   width: 33vw;
   margin-top:20px;
   margin-bottom: 20px;
-  border-width: thick;
+  border-style: hidden;
+  border-radius: 2px;
 }
 .message{
   width: 60vw;
   margin-bottom: 25px;
   border-width: thick;
+  border-style: hidden;
 }
 .submitButton{
   padding: 5px 10px;
