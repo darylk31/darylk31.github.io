@@ -33,7 +33,7 @@
       as a software developer. I started my journey studying computer science at UBC.  Ever since,
       I'd always carry my laptop with me when I stop by the coffee shop around the block. I enjoy spending
       my time checking out the newest tech scenes or working on projects.  Other times
-      my hobbies include playing my guitar or piano, taking photos, or breaking a sweat in all sorts of exercises./p>
+      my hobbies include playing my guitar or piano, taking photos, or breaking a sweat in all sorts of exercises. </p>
       </div>
     </div>
   </section>
@@ -138,11 +138,14 @@
         Feel free to send me a message through email, and I will reply as soon as possible.
       </p>
       <form id="contactForm" action="https://formspree.io/darylkwok@live.ca" method="POST">
-        <input type="text" name="name" placeholder=" Name" id="name"/>
-        <input type="email" name="_replyto" placeholder=" Your Email" id="email"/>
-        <textarea name="message" placeholder=" Message" id="message" rows="8"></textarea>
-        <input type="hidden" name="_next" value="https://www.darylkwok.info"/>
+        <input type="text" name="name" placeholder=" Name" id="name" required/>
+        <input type="email" name="_replyto" placeholder=" Your Email" id="email" required/>
+        <textarea name="message" placeholder=" Message" id="message" rows="8" required></textarea>
+        <input type="text" name="_gotcha" style="display:none" />
+        <button id="submitButton">Submit</button>
+        <!--
         <input class="submit" type="submit" value="Send" id="submitButton" />
+      -->
       </form>
     </div>
 </body>
